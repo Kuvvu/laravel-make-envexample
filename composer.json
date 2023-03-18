@@ -1,0 +1,22 @@
+{
+    "name": "kuvvu/envexample",
+    "description": "Create an update env.example with artisan",
+    "autoload": {
+        "psr-4": {
+            "Kuvvu\\Envexample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Jenny",
+            "email": "simon.jenny@kuvvu.ch"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kuvvu\\Envexample\\ServiceProvider"
+            ]
+        }
+    }
+}
