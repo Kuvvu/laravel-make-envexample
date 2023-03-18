@@ -2,7 +2,7 @@
 
 ## Installation
 
-composer require-dev kuvvu/envexample
+composer require --dev kuvvu/envexample
 
 ## Configuration
 
