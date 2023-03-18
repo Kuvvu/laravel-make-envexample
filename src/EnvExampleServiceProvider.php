@@ -2,18 +2,15 @@
 
 namespace Kuvvu\Envexample;
 
-use Illuminate\Foundation\Console\AboutCommand;
 use Illuminate\Support\ServiceProvider;
 
-use Kuvvu\Envexample\Commands\envexampleCommand;
+use Kuvvu\Envexample\Commands\EnvExample;
 
 class EnvExampleServiceProvider extends ServiceProvider {
 
 
     public function boot(): void 
     {
-
-        AboutCommand::add('env.example', fn () => ['Version' => '0.1.0']);
 
         // php artisan vendor:publish --tag=env-example
 
@@ -23,7 +20,7 @@ class EnvExampleServiceProvider extends ServiceProvider {
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                envexampleCommand::class,
+                EnvExample::class,
             ]);
         }
 
