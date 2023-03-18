@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-class envexample extends Command
+class envexampleCommand extends Command
 {
     /**
      * The name and signature of the console command.
