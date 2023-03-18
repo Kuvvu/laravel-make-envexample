@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kuvvu\\Envexample\\ServiceProvider"
+                "Kuvvu\\Envexample\\EnvExampleServiceProvider"
             ]
         }
     }
