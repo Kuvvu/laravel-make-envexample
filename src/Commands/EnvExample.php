@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Kuvvu\Envexample\Commands;
 
 use Illuminate\Console\Command;
 
