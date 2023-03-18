@@ -1,4 +1,4 @@
-# Laravel Package : Create .env.example
+# Laravel Package : Create .env.example with Artisan
 
 ## Installation
 
