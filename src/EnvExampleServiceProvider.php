@@ -5,7 +5,7 @@ namespace Kuvvu\Envexample;
 use Illuminate\Foundation\Console\AboutCommand;
 use Illuminate\Support\ServiceProvider;
 
-use Kuvvu\Envexample\Commands\envexample;
+use Kuvvu\Envexample\Commands\envexampleCommand;
 
 class EnvExampleServiceProvider extends ServiceProvider {
 
@@ -23,7 +23,7 @@ class EnvExampleServiceProvider extends ServiceProvider {
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                envexample::class,
+                envexampleCommand::class,
             ]);
         }
 
