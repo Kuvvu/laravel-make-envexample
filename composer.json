@@ -1,6 +1,7 @@
 {
     "name": "kuvvu/envexample",
     "description": "Create an update env.example with artisan",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Kuvvu\\Envexample\\": "src/"
